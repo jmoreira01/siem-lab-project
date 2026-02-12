@@ -1,3 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Wazuh](https://img.shields.io/badge/Wazuh-v4.14.2-blue)](https://wazuh.com/)
+[![YARA](https://img.shields.io/badge/YARA-v4.5.5-red)](https://virustotal.github.io/yara/)
+[![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange)](https://attack.mitre.org/)
+
 # 🛡️ PRACTICAL WORK - SIEM LAB
 
 ## Threat Detection - Blue Teaming
