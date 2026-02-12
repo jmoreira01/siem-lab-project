@@ -4,7 +4,7 @@
 
 **Institution:** CESAE Digital  
 **Date:** January 2026  
-**Course:** DETECT - Cybersecurity Training
+**Course:** Threat Detection - Cybersecurity Training
 
 ---
 
