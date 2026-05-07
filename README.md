@@ -63,10 +63,7 @@ All attack simulations conducted in an isolated lab environment.
     │              │              │              │
     │ • FIM        │              │ • FIM        │
     │ • YARA       │              │ • YARA       │
-    │ • RDP Mon    │              │ • SSH Mon    │Personal homelab implementation of an enterprise SIEM solution using Wazuh.
-Covers multi-platform agent deployment (Windows + Linux), File Integrity Monitoring,
-YARA-based malware detection, network intrusion detection, and automated Active Response.
-All attack simulations conducted in an isolated lab environment.
+    │ • RDP        │              │ • SSH        │
     │ • Active Rsp │              │ • Apache Mon │
     └──────────────┘              └──────────────┘
 ```
