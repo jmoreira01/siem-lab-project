@@ -5,8 +5,6 @@
 
 # 🛡️ Wazuh SIEM Lab — Enterprise Threat Detection & Automated Response
 
-## Threat Detection - Blue Teaming
-
 ---
 
 ## 📋 Table of Contents
@@ -724,4 +722,4 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ## 📄 License
 
-This project was developed for educational purposes as part of the Threat Detection - Blue Teaming Cybersecurity course.
+This project was developed as a personal homelab exercise. All simulations were conducted in isolated lab environments.
