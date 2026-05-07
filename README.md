@@ -3,13 +3,9 @@
 [![YARA](https://img.shields.io/badge/YARA-v4.5.5-red)](https://virustotal.github.io/yara/)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange)](https://attack.mitre.org/)
 
-# 🛡️ PRACTICAL WORK - SIEM LAB
+# 🛡️ Wazuh SIEM Lab — Enterprise Threat Detection & Automated Response
 
 ## Threat Detection - Blue Teaming
-
-**Institution:** CESAE Digital  
-**Date:** January 2026  
-**Course:** Threat Detection - Cybersecurity Training
 
 ---
 
@@ -30,7 +26,10 @@
 
 ## 🎯 Introduction
 
-**TecnoSoft2** company identified the need to implement a SIEM solution that allows centralizing log information from different endpoints and services.
+Personal homelab implementation of an enterprise SIEM solution using Wazuh.
+Covers multi-platform agent deployment (Windows + Linux), File Integrity Monitoring,
+YARA-based malware detection, network intrusion detection, and automated Active Response.
+All attack simulations conducted in an isolated lab environment.
 
 ### Project Objectives
 
@@ -66,7 +65,10 @@
     │              │              │              │
     │ • FIM        │              │ • FIM        │
     │ • YARA       │              │ • YARA       │
-    │ • RDP Mon    │              │ • SSH Mon    │
+    │ • RDP Mon    │              │ • SSH Mon    │Personal homelab implementation of an enterprise SIEM solution using Wazuh.
+Covers multi-platform agent deployment (Windows + Linux), File Integrity Monitoring,
+YARA-based malware detection, network intrusion detection, and automated Active Response.
+All attack simulations conducted in an isolated lab environment.
     │ • Active Rsp │              │ • Apache Mon │
     └──────────────┘              └──────────────┘
 ```
@@ -707,14 +709,6 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 3. **Active Response effectiveness**: Automatic mitigation reduces exposure window
 4. **MITRE ATT&CK value**: Common framework for threat analysis
 
-### Team Work
-
-| Responsible | Component |
-|-------------|-----------|
-| **Jorge Moreira** | Windows Agent + Configurations + Kali Attacks |
-| **Larissa Noronha** | Linux Agent + Wazuh Server |
-| **Luís Oliveira** | Linux Agent + Documentation |
-
 ---
 
 ## 📚 Technical Documentation
@@ -725,12 +719,6 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 - 🦠 [YARA Documentation](https://yara.readthedocs.io)
 - 🎯 [MITRE ATT&CK](https://attack.mitre.org)
 - 🔗 [AlienVault IP Reputation](https://iplists.firehol.org)
-
----
-
-**CESAE Digital**  
-Cybersecurity Training - Threat Detection - Blue Teaming
-January 2026
 
 ---
 
