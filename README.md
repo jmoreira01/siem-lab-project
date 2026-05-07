@@ -3,11 +3,11 @@
 [![YARA](https://img.shields.io/badge/YARA-v4.5.5-red)](https://virustotal.github.io/yara/)
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-orange)](https://attack.mitre.org/)
 
-# 🛡️ Wazuh SIEM Lab — Enterprise Threat Detection & Automated Response
+# Wazuh SIEM Lab — Enterprise Threat Detection & Automated Response
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 1. [Introduction](#-introduction)
 2. [Project Architecture](#-project-architecture)
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Introduction
+## Introduction
 
 Personal homelab implementation of an enterprise SIEM solution using Wazuh.
 Covers multi-platform agent deployment (Windows + Linux), File Integrity Monitoring,
@@ -31,17 +31,17 @@ All attack simulations conducted in an isolated lab environment.
 
 ### Project Objectives
 
-✅ **Installation and configuration of Wazuh SIEM server**  
-✅ **Implementation of agents on Windows and Linux**  
-✅ **Configuration of File Integrity Monitoring (FIM)**  
-✅ **Detection and blocking of malicious remote access**  
-✅ **Integration of YARA module for malware detection**  
-✅ **Simulation of real attacks**  
-✅ **Mapping with MITRE ATT&CK framework**
+- **Installation and configuration of Wazuh SIEM server**  
+- **Implementation of agents on Windows and Linux**  
+- **Configuration of File Integrity Monitoring (FIM)**  
+- **Detection and blocking of malicious remote access**  
+- **Integration of YARA module for malware detection**  
+- **Simulation of real attacks**  
+- **Mapping with MITRE ATT&CK framework**
 
 ---
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ### Infrastructure Components
 
@@ -82,24 +82,24 @@ All attack simulations conducted in an isolated lab environment.
 
 ---
 
-## 🖥️ Wazuh Server
+## Wazuh Server
 
 ### Docker Implementation
 
 The implementation used **Docker** to create an environment that is:
-- ✅ **Modular** - Isolated components
-- ✅ **Reproducible** - Easily replicable
-- ✅ **Scalable** - Supports growth
+- **Modular** - Isolated components
+- **Reproducible** - Easily replicable
+- **Scalable** - Supports growth
 
 ### Main Components
 
-#### 1️⃣ Wazuh Manager
+#### 1 Wazuh Manager
 Responsible for receiving and analyzing events sent by agents.
 
-#### 2️⃣ Wazuh Indexer
+#### 2 Wazuh Indexer
 Used for storage and indexing of security data.
 
-#### 3️⃣ Wazuh Dashboard
+#### 3 Wazuh Dashboard
 Graphical interface for visualization, alert analysis, and incident response.
 
 ### Network Architecture
@@ -124,7 +124,7 @@ services:
 
 ---
 
-## 🪟 Windows Machine
+## Windows Machine
 
 ### 1. Wazuh Agent Installation
 
@@ -359,7 +359,7 @@ exit /b 0
 
 ---
 
-## 🐧 Linux Machine
+## Linux Machine
 
 ### 1. Wazuh Agent Installation
 
@@ -571,7 +571,7 @@ ${YARA_PATH}/yara -w -r ${YARA_RULES} ${FILENAME} >> ${LOG_FILE} 2>&1
 
 ---
 
-## ⚔️ Simulated Attacks
+## Simulated Attacks
 
 ### 1. SSH Brute Force (Linux)
 
@@ -639,7 +639,7 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ---
 
-## 🎯 MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 ### Mapping Table
 
@@ -673,7 +673,7 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ---
 
-## 📊 Results Obtained
+## Results Obtained
 
 ### Detection Rate
 
@@ -688,17 +688,17 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ---
 
-## 🎓 Conclusion
+## Conclusion
 
 ### Achieved Objectives
 
-✅ **Functional SIEM system** using Wazuh  
-✅ **Centralized monitoring** of Windows and Linux  
-✅ **File Integrity Monitoring** in real-time  
-✅ **Malware detection** via YARA  
-✅ **Automatic blocking** of malicious IPs  
-✅ **Automatic response** to attacks  
-✅ **Complete MITRE ATT&CK mapping**
+- **Functional SIEM system** using Wazuh  
+- **Centralized monitoring** of Windows and Linux  
+- **File Integrity Monitoring** in real-time  
+- **Malware detection** via YARA  
+- **Automatic blocking** of malicious IPs  
+- **Automatic response** to attacks  
+- **Complete MITRE ATT&CK mapping**
 
 ### Key Learnings
 
@@ -709,7 +709,7 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ---
 
-## 📚 Technical Documentation
+## Technical Documentation
 
 ### Useful Links
 
@@ -720,6 +720,6 @@ curl -XGET "http://IP_LINUX/login.php?user=admin'--"
 
 ---
 
-## 📄 License
+## License
 
 This project was developed as a personal homelab exercise. All simulations were conducted in isolated lab environments.
